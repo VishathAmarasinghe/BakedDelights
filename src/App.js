@@ -7,6 +7,8 @@ import SelectedItems from './Pages/SelectedItems';
 import Dashboard from './Pages/Dashboard';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
+import LoginPage from './components/LoginPage';
+import SignupPage from './components/SignupPage';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path='/Single_Cake' element={<SingleCakePage />} />
           <Route path='/Selected_Cake' element={<SelectedItems />} />
           <Route path='/Dashboard' element={<Dashboard />} />
+          <Route path='/Login' element={<LoginPage />} />
+          <Route path='/Signup' element={<SignupPage />} />
         </Routes>
       </Router>
       
