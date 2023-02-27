@@ -9,11 +9,20 @@ import BillingPage from './Pages/BillingPage';
 function App() {
   return (
     <div className="App">
-      {/* <HomePage></HomePage> */}
-      {/* <CelebrationCakePage></CelebrationCakePage> */}
-      {/* <SingleCakePage></SingleCakePage> */}
-      {/* <SelectedItems></SelectedItems> */}
-      <BillingPage></BillingPage>
+      <Router>
+        {/* Add Stable Components Here */}
+        <Header />
+
+        <Routes>
+          {/* Add Routing Components Here */}
+          <Route path='/' element={<HomePage />} />
+          <Route path='/celebration_Cake' element={<CelebrationCakePage />} />
+          <Route path='/Single_Cake' element={<SingleCakePage />} />
+          <Route path='/Selected_Cake' element={<SelectedItems />} />
+          <Route path='/Dashboard' element={<Dashboard />} />
+        </Routes>
+      </Router>
+
     </div>
   );
 }
