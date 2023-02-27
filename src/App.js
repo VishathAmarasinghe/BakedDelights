@@ -4,7 +4,6 @@ import HomePage from './Pages/HomePage';
 import CelebrationCakePage from './Pages/CelebrationCakePage';
 import SingleCakePage from './Pages/SingleCakePage';
 import SelectedItems from './Pages/SelectedItems';
-import BillingPage from './Pages/BillingPage';
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
       {/* <HomePage></HomePage> */}
       {/* <CelebrationCakePage></CelebrationCakePage> */}
       {/* <SingleCakePage></SingleCakePage> */}
-      {/* <SelectedItems></SelectedItems> */}
-      <BillingPage></BillingPage>
+      <SelectedItems></SelectedItems>
     </div>
   );
 }
