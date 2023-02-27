@@ -9,6 +9,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
+import React from 'react';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -27,6 +31,8 @@ function App() {
           <Route path='/Login' element={<LoginPage />} />
           <Route path='/Signup' element={<SignupPage />} />
         </Routes>
+
+        <ToastContainer />
       </Router>
       
     </div>

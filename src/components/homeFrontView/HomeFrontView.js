@@ -1,6 +1,7 @@
 import React from 'react'
 import './HomeFrontView.css';
 import frontImage from './cake1.png';
+import { toast } from 'react-toastify';
 
 function HomeFrontView() {
   return (
@@ -19,7 +20,7 @@ function HomeFrontView() {
               a liquid, and a leavening agent, such as baking soda or baking powder.
               Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays. 
               </p>
-              <button className='seeMoreBtn font-normal duration-150 hover:translate-x-2 shadow-2xl focus-within:bg-dark-blue' type=''>See more </button>
+              <button className='seeMoreBtn font-normal duration-150 hover:translate-x-2 shadow-2xl focus-within:bg-dark-blue' onClick={''} type=''>See more </button>
             </div>
             <div className='imageContainer'>
             <img className='imageContainerImage' src={frontImage} alt='logo'></img>

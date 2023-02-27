@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
 import cover from '../images/cover.jpg';
+
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigation = useNavigate();
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -16,7 +20,21 @@ const LoginPage = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Handle login logic here
+    toast.success('Completed !!! ', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      })
   };
+
+  const SignUpButtonClickHandle = () => {
+    navigation('/signup')
+  }
 
   return (
     <div className="min-h-screen bg-cover bg-center filter py-12 sm:px-6 lg:px-8" style={{
@@ -86,12 +104,18 @@ const LoginPage = () => {
               </div>
             </div>
 
-            <div>
+            <div className=' m-2'>
               <button
                 type="submit"
                 className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2">Sign In</button>
                 </div>
         </form>
+
+
+        <div className=' m-2 '>
+              <button
+                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-purple-300 hover:bg-indigo-700 focus:outline-none focus:ring-2" onClick={SignUpButtonClickHandle}>Sign Up</button>
+                </div>
         </div>
         </div>
         </div>
