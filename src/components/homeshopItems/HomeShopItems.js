@@ -5,10 +5,10 @@ import './HomeShopitems.css';
 
 function HomeShopItems(props) {
   return (
-    <div  class="members border-2 rounded-md shadow-2xl duration-100 hover:scale-105" >
+    <div  class="members" >
                 
                 <img src={cakeImage} class="catogoryImages"></img>
-                <div className='cakeType text-green-700 font-semibold'>{props.type}</div>
+                <div className='cakeType'>{props.type}</div>
         
                 <div  class="memberD">
                     <p>Shop Now</p>
