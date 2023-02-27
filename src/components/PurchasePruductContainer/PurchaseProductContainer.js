@@ -5,7 +5,7 @@ import insideImage from './cake1.png';
 
 function PurchaseProductContainer(props) {
   return (
-    <div className='listedItems'>
+    <div className='listedItems '>
                 <div className='closebtnContainer'>
                     <img src={closebtn} className="closebtn"></img>
                 </div>

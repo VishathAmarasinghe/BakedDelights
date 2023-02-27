@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <div>
     <UpperNotificationBar></UpperNotificationBar>
-      <Header></Header>
+      {/* <Header></Header> */}
       <HomeFrontView></HomeFrontView>
       <HomeshopDisplay></HomeshopDisplay>
       <CustomerReviews></CustomerReviews>
