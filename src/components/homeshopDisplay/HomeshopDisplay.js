@@ -4,7 +4,7 @@ import './HomeshopDisplay.css';
 
 
 function HomeshopDisplay() {
-    const types=["CAKES","CELEBRATION CAKES","DESSERTS"];
+    const types=["cakes","celebration_Cake","desserts"];
   return (
     <div className='mainHomeContainer2'>
         <div className='happyCustomerCount2'>

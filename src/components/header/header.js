@@ -4,25 +4,29 @@ import searchbtn from './searchbutton.png';
 import userIcon from './userIcon.png';
 import shopIcon from './shopIcon.png';
 import './header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div className='header'>
         <ul className='headerUL'>
-            <li>
+            <Link to={'/'}>
                 <img className='logo' src={logo} alt='logo'></img>
-            </li>
+            </Link>
             <li>
                 <div className='searchBar'>
-                <input className='searchbarinsert' type="text"></input>
-                <img className='searchbtn headerIcons' src={searchbtn} alt='logo'></img>
+                <input className='searchbarinsert text-white' type="text"></input>
+                <div className=''>
+                    <img className='searchbtn headerIcons p-1' src={searchbtn} alt='logo'></img>
+                </div>
+                
                 </div>
             </li>
             <li>
                 HOME
             </li>
             <li>
-                <div class="dropdown">
+                <div class="dropdown" style={{zIndex:"5"}}>
                 <button class="dropbtn">SHOP</button>
                 <div class="dropdown-content">
                     <a href="#">Link 1</a>
