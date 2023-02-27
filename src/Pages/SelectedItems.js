@@ -7,7 +7,7 @@ function SelectedItems() {
   return (
     <div>
         <UpperNotificationBar></UpperNotificationBar>
-        {/* <Header></Header> */}
+        <Header></Header>
         <ListedItems></ListedItems>
 
     </div>

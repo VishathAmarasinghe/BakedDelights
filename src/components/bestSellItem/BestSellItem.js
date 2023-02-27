@@ -4,7 +4,7 @@ import sellingImg from './cake1.png';
 
 function BestSellItem(props) {
   return (
-    <div className='sellItems p-1 shadow-2xl duration-100 hover:scale-105'>
+    <div className='sellItems'>
         <img className='bestItem' src={sellingImg}></img>
                 <div className='bestItemDataContainer'>
                     <h3>{props.caketype}</h3>

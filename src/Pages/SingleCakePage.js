@@ -7,7 +7,7 @@ function SingleCakePage() {
   return (
     <div>
         <UpperNotificationBar></UpperNotificationBar>
-        {/* <Header></Header> */}
+        <Header></Header>
         <SingleCake></SingleCake>
     </div>
   )

@@ -7,7 +7,7 @@ function CelebrationCakePage() {
   return (
     <div>
         <UpperNotificationBar></UpperNotificationBar>
-        {/* <Header></Header> */}
+        <Header></Header>
         <CelebrationCakeContainer></CelebrationCakeContainer>
 
     </div>
