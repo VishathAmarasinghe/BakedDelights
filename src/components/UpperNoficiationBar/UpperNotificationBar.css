@@ -7,5 +7,5 @@
     justify-content: center;
     align-items: center;
     background-color: #858DBD;
-    position: sticky;
+    z-index: "0";
 }

@@ -28,7 +28,7 @@ function Header() {
                 HOME
             </li>
             <li>
-                <div class="dropdown">
+                <div class="dropdown" style={{zIndex:"5"}}>
                 <button class="dropbtn">SHOP</button>
                 <div class="dropdown-content">
                     <a href="#">Link 1</a>
