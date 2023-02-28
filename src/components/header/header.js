@@ -5,10 +5,12 @@ import userIcon from './userIcon.png';
 import shopIcon from './shopIcon.png';
 import './header.css';
 import { Link } from 'react-router-dom';
+import UpperNotificationBar from '../UpperNoficiationBar/UpperNotificationBar';
 
 function Header() {
   return (
     <div className='header'>
+     <UpperNotificationBar />
         <ul className='headerUL'>
             <Link to={'/'}>
                 <img className='logo' src={logo} alt='logo'></img>
@@ -48,7 +50,6 @@ function Header() {
                 <img className='headerIcons' src={shopIcon} alt='logo'></img>
             </li>
         </ul>
-        
         
 
         

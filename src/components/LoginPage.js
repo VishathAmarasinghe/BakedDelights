@@ -36,11 +36,14 @@ const LoginPage = () => {
     navigation('/signup')
   }
 
+
+  // style={{
+  //   backgroundImage: `url(${cover})`,
+  //   backgroundRepeat: false,
+  //   }}
+
   return (
-    <div className="min-h-screen bg-cover bg-center filter py-12 sm:px-6 lg:px-8" style={{
-        backgroundImage: `url(${cover})`,
-        backgroundRepeat: false,
-        }}>
+    <div className="min-h-screen bg-cover bg-center filter py-12 sm:px-6 lg:px-8" >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="text-center text-3xl font-extrabold text-white">Sign in to your account</h2>
       </div>

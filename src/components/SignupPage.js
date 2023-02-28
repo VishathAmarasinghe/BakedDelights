@@ -21,11 +21,13 @@ function SignupPage() {
     // TODO: Submit form data to server
   };
 
+  // style={{
+  //   backgroundImage: `url(${cover})`,
+  //   backgroundRepeat: false,
+  //   }}
+
   return (
-    <div className="flex flex-col items-center bg-cover bg-center filter justify-center h-screen" style={{
-        backgroundImage: `url(${cover})`,
-        backgroundRepeat: false,
-        }}>
+    <div className="flex flex-col items-center bg-cover bg-center filter justify-center h-screen" >
       <h1 className="text-3xl font-bold mb-8 text-white">Sign up</h1>
       <form
         className="w-full max-w-md px-8 pt-6 pb-8 mb-4 bg-white rounded-lg shadow-md"

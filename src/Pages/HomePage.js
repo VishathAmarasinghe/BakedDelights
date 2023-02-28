@@ -10,7 +10,7 @@ import UpperNotificationBar from '../components/UpperNoficiationBar/UpperNotific
 function HomePage() {
   return (
     <div>
-    <UpperNotificationBar></UpperNotificationBar>
+    {/* <UpperNotificationBar></UpperNotificationBar> */}
       {/* <Header></Header> */}
       <HomeFrontView></HomeFrontView>
       <HomeshopDisplay></HomeshopDisplay>
