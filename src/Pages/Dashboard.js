@@ -3,6 +3,7 @@ import BarChart from '../components/BarChart'
 import ColumnChart from '../components/ColumnChart'
 import PieChart from '../components/PieChart'
 // import DashboardCard from '../components/DashboardCard'
+import NewOrderTable from '../components/NewOrderTable'
 
 const Dashboard = () => {
   return (
@@ -15,6 +16,9 @@ const Dashboard = () => {
                 <ColumnChart />
                 <BarChart />
                 <PieChart />
+        </div>
+        <div>
+          <NewOrderTable />
         </div>
     </div>
   )

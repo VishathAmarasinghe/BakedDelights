@@ -3,7 +3,7 @@ import './UpperNotificationBar.css';
 
 function UpperNotificationBar() {
   return (
-    <div className='UpperNotificationBar mb-4'>Deliver within selected areas of western province</div>
+    <div className='UpperNotificationBar'>Deliver within selected areas of western province</div>
   )
 }
 
