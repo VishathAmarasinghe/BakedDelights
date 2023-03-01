@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
         {/* Add Stable Components Here */}
+        <UpperNotificationBar></UpperNotificationBar>
         <Header />
 
         <Routes>
