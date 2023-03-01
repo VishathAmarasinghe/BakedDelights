@@ -14,7 +14,6 @@ function Bill() {
                 <input className='inputs sd' type="text" placeholder='Ashley'></input>
                 <input className='inputs sd' type="text" placeholder='Murz'></input>
             </div>
-            <input className='inputs' type="text" placeholder='Sri Lanka'></input>
             <input className='inputs' type="text" placeholder='No.10,Kandy Road, Dalugama'></input>
             <select className='inputs'  name="City" id="cities">
                 {
