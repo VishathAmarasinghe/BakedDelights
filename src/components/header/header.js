@@ -33,7 +33,7 @@ function Header() {
                 </Link>
                 <li>
                     <div className='searchBar'>
-                        <input className='searchbarinsert text-white' type="text"></input>
+                            <input className='searchbarinsert text-white' type="text"></input>
                         <div className=''>
                             <img className='searchbtn headerIcons p-1' src={searchbtn} alt='logo'></img>
                         </div>

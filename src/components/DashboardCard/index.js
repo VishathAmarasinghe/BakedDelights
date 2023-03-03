@@ -1,14 +1,14 @@
 import React from 'react'
-// import PersonIcon from '@mui/icons-material/Person';
-// import { Button } from '@mui/material';
-// import { Icon } from '@iconify/react';
+import PersonIcon from '@mui/icons-material/Person';
+import { Button } from '@mui/material';
+import { Icon } from '@iconify/react';
 
 function DashboardCard({
-    icon = 'an icon',
+    icon,
     seemorelink,
-    button = "Button Name",
+    button,
     value = 0,
-    title = "Title",
+    title,
     bg
 }) {
   return (

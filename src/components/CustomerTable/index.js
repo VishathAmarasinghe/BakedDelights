@@ -1,13 +1,11 @@
 import React from 'react'
-import { DataGrid } from '@mui/x-data-grid';
-import { Button } from '@mui/material';
+import { DataGrid } from '@mui/x-data-grid'
 
-
-const NewOrderTable = (props) => {
+const CustomerTable = (props) => {
   return (
     <div style={{ height: 600, width: '100%' }}>
         <DataGrid
-            getRowId={(row) => row.id}
+            getRowId={(row) => row.Order_Id}
             rows={props.rows}
             columns={props.columns}
             pageSize={10}
@@ -18,4 +16,4 @@ const NewOrderTable = (props) => {
   )
 }
 
-export default NewOrderTable
+export default CustomerTable
