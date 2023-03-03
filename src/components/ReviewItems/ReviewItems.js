@@ -4,9 +4,10 @@ import './ListedItems.css';
 import gloden from './Golden.jpg';
 import raspberry from './raspberry.jpg';
 import freshfruit from './freshfruit.webp';
+import ReviewProductContainer from '../ReviewProductContainer/ReviewProductContainer';
 
 
-function ListedItems() {
+function ReviewItems() {
     
     const oder=[{cake:"Fresh fruit cake",imageown:freshfruit},{cake:"Raspberry Mousse",imageown:raspberry},{cake:"Goldern vanilla cake",imageown:gloden}];
   return (
@@ -20,19 +21,13 @@ function ListedItems() {
         <div className='itemList'>
             {
                 oder.map((e)=>{
-                    return <PurchaseProductContainer cakename={e.cake} imageName={e.imageown}></PurchaseProductContainer>
+                    return <ReviewProductContainer cakename={e.cake} imageName={e.imageown}></ReviewProductContainer>
                 })
             }
             
         </div>
-        <div className='totalViewer'>
-            <div className='subtotal'>Total: 50000</div>
-        </div>
-            <div className='purchasebtnContainer'>
-                <button type='' className='purchasebtn'>Purchase</button>
-            </div>
         </div>
   )
 }
 
-export default ListedItems
+export default ReviewItems
